@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  padding: 8px 24px;
+  height: 56px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 48px;
+  margin-right: 16px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 12px;
+  color: #222;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background: #888;
+  margin: 0 12px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  margin-right: 8px;
+}
+
+.login-text {
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+.lang {
+  margin-right: 16px;
+  color: #333;
+}
+
+.search {
+  padding: 5px 10px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  margin-right: -38px;
+  width: 120px;
+  outline: none;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  margin-left: -32px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+}
